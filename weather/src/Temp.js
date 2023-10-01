@@ -8,7 +8,7 @@ const Temp = () => {
       <div className="search">
             <input
             type='search'
-            placeholder='earch...'
+            placeholder='scearch...'
             autoFocus
             id='search'
             className='searchTerm'
@@ -18,6 +18,17 @@ const Temp = () => {
             </button>
       </div>
     </div>
+    {/* our weather card */}
+    <article className="widget">
+      <div className="weatherIcon">
+            <i className={"wi wi-day-sunny"}></i>
+      </div>
+      <div className="weatherInfo">
+            <div className="temperature">
+                  <span>25.6&deg;</span>
+            </div>
+      </div>
+    </article>
       
     </>
   )
