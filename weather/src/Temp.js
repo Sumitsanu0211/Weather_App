@@ -27,7 +27,12 @@ const Temp = () => {
             <div className="temperature">
                   <span>25.6&deg;</span>
             </div>
+            <div className="description">
+                  <div className="weatherCondition">Sunny</div>
+                  <div className="place">Pune, India</div>
+            </div>
       </div>
+      <div className="date">{new Date().toLocaleString()}</div>
     </article>
       
     </>
