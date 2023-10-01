@@ -33,6 +33,53 @@ const Temp = () => {
             </div>
       </div>
       <div className="date">{new Date().toLocaleString()}</div>
+
+      {/* our four column section */}
+      <div className="extra-temp">
+            <div className="temp-info-minmax">
+                  <div className="two-sided-section">
+                        <p>
+                              <i className={"wi wi-sunset"}></i>
+                        </p>
+                        <p className='extra-info-leftside'>
+                              19:19 PM <br/>
+                              Sunset
+                        </p>
+                  </div>
+
+                  <div className="two-sided-section">
+                        <p>
+                              <i className={"wi wi-humidity"}></i>
+                        </p>
+                        <p className='extra-info-leftside'>
+                              19:19 PM <br/>
+                              Humidity
+                        </p>
+                  </div>
+            </div>
+
+            <div className="weather-extra-info">
+            <div className="two-sided-section">
+                        <p>
+                              <i className={"wi wi-rain"}></i>
+                        </p>
+                        <p className='extra-info-leftside'>
+                              19:19 PM <br/>
+                              pressure
+                        </p>
+                  </div>
+                  <div className="two-sided-section">
+                        <p>
+                              <i className={"wi wi-strong-wind"}></i>
+                        </p>
+                        <p className='extra-info-leftside'>
+                              19:19 PM <br/>
+                              Speed
+                        </p>
+                  </div>
+
+            </div>
+      </div>
     </article>
       
     </>
